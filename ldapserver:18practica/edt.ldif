@@ -25,6 +25,12 @@ ou: usuaris
 description: Container per usuaris del sistema linux
 objectclass: organizationalunit
 
+dn: cn=ldapwiki,dc=edt,dc=org
+cn: ldapwiki
+gidnumber: 10004
+objectclass: posixGroup
+objectclass: top
+
 dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
@@ -247,7 +253,7 @@ description: alumne de 2asix
 ou: 2asix
 uid: user08
 uidNumber: 7008
-gidNumber: 10006
+gidNumber: 10007
 homeDirectory: /tmp/home/2asix/user08
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
@@ -263,7 +269,7 @@ description: alumne de 2asix
 ou: 2asix
 uid: user09
 uidNumber: 7009
-gidNumber: 10005
+gidNumber: 10006
 homeDirectory: /tmp/home/2asix/user09
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
@@ -279,14 +285,10 @@ description: alumne de 2asix
 ou: 2asix
 uid: user10
 uidNumber: 7010
-gidNumber: 10004
+gidNumber: 10005
 homeDirectory: /tmp/home/2asix/user10
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
 
-dn: cn=groups,dc=edt,dc=org
-ou: grupprova
-description: grup de prova
-objectclass: posixGroup
-gidNumber: 10000
+
 
