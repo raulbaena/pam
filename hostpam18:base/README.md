@@ -23,3 +23,4 @@ getent group 2asix
 getent group
 ```
 
+Practica 1
